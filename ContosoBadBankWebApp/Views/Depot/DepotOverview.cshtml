@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ContosoBadBank.Models.DepotEntry>
+
+@{
+    ViewData["Title"] = "Your Depot";
+}
+
+    <h1>Your Depot</h1>
+
+<p>
+    <a asp-action="Buy">Buy</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StockSymbol)
+            </th>
+            <th>
+                Total Items
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var item in Model.Where (m=>m.objectId== ((System.Security.Claims.ClaimsIdentity)User.Identity).FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value) )
+        {
+
+        <tr>
+            <td>
+
+                @Html.DisplayFor(modelItem => item.StockSymbol)
+            </td>
+            <td>
+
+                @Html.DisplayFor(modelItem => item.NrOfItems)
+            </td>
+            
+            <td>               
+                <a asp-action="Sell" asp-route-stockSymbol="@item.StockSymbol" >Sell</a>                 
+            </td>
+        </tr>
+
+        }
+    </tbody>
+</table>
