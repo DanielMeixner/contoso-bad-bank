@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="WebApp-OpenIDConnect-DotNet20200707131032" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\danmeix\\Documents\\gh\\fsi-hack\\ContosoBadBank\\ContosoBadBankWebApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>

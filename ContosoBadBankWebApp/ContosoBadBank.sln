@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoBadBank", "ContosoBadBank.csproj", "{8DCFEEC2-0A85-4C7E-B96A-21C9184470B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{51AD4C0B-B5CC-4E24-ADF0-7AAB94C64BE4}"
+	ProjectSection(SolutionItems) = preProject
+		Tables.sql = Tables.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
