@@ -44,11 +44,6 @@ Success criteria: Users can place orders, e.g. “Buy 10 MSFT stocks” and the 
     *	Date and time of order
     *	State of the order (open, processing, executing)
 
-1.	Ensure you have a replication of your data so that data loss can be avoided, even if the datacenter goes down.
-1.	Set up a procedure to automatically use your replicated data in case of a disaster. 
-1.	Test the failover and make sure you can fail over to the replicated data any time throughout the day. 
-1.	Bonus: In which could a potential data inconsistency appear? How could you solve this issue?
-
 
 ### 4	Working asyncronously
 Placed Orders shall be executed. (For demo purposes you can skip all considerations of pricing, limits, validity, stock exchange location etc.)
@@ -96,9 +91,13 @@ Now that you have everything up and running you want to create a new version of 
 25.	Make sure that you can deploy the new version without downtime for users. 
 26.	Make sure you can show the new version of the application to 10% of the users while keeping the old version in place for the rest to allow validation.
 
-### 9	Configuration
+### 9	Configuration for Security and Availablity
 27.	Your CISO demands you enable Multifactor authentication on your app. Make sure that every user signing into the app will be asked for a second factor.
 28.	Your application is very successful. Set up your depot app so you can scale out automatically on demand if load is too high. 
+
+1.	Ensure you have a replication of your data so that data loss can be avoided, even if the datacenter goes down.
+
+1.	Bonus: In which could a potential data inconsistency appear? How could you solve this issue?
 
 ### 10	Disaster Recovery 
 You realize it was a lot of work to get everything set up correctly and you are afraid that you might spoil everything you created on Azure by accident. 

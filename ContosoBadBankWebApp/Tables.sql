@@ -1,4 +1,4 @@
-﻿USE [depotdb]
+﻿USE contosobadbanktestdb
 GO
 
 /****** Object: Table [dbo].[Orders] Script Date: 23.07.2020 13:57:10 ******/
@@ -27,3 +27,10 @@ CREATE TABLE [dbo].[DepotEntries] (
     [NrOfItems]   INT          NULL,
     [StockSymbol] VARCHAR (10) NULL
 );
+
+GO
+
+ALTER TABLE [dbo].[Orders]
+    ADD CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED ([id] ASC);
+
+GO

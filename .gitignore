@@ -20,3 +20,5 @@
 /ContosoBadBankWebApp/obj/ContosoBadBank.csproj.nuget.g.targets
 /ContosoBadBankWebApp/obj/ContosoBadBank.csproj.nuget.g.props
 /ContosoBadBankWebApp/obj/ContosoBadBank.csproj.nuget.dgspec.json
+/ContosoBadBankWebApp/bin/Debug/netcoreapp3.1
+/ContosoBadBankWebApp/obj/Debug/netcoreapp3.1
