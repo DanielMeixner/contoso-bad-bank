@@ -110,13 +110,8 @@ If you haven’t done it already, automate the deployment.
 
 31.	Create a pipeline which allows you to push a new version of the depot app with every committed change in source code.
 
-### 12	Insights
 
-32. TODO:
-	App Insights?	Ladezeiten! Deployment Marker 
-Sleep einbauen
-
-### 13 Extend 
+### 12 Extend 
 
 32. Add your own ideas based on real customer needs. (eg add stock prices etc...)
 
