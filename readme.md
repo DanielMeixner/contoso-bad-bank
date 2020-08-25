@@ -17,7 +17,7 @@ While there are many ways to get something done in Azure, try to follow these co
 
 
 ### 1	Get it running
-Get the app code running on Azure. You can find the application code here (TODO LINK)
+Get the app code running on Azure. You can find the application code here https://github.com/DanielMeixner/contoso-bad-bank
 
 1.	Familiarize yourself with the code
 2.	Find a hosting solution in Azure
